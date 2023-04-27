@@ -33,21 +33,23 @@
                 <div>
                     <h2>Calculadora Tributária</h2>
                     <div class="container__calc__anexoV">
-                        <div class="calc">
+                        <form class="calc">
                             <p>Anexo V do Simples Nacional:</p>
-                            <label for="receita_mensal">Receita Mensal: </label>
-                            <input type="text" id="receita_mensal">
+                            <label for="receita_mensalV">Receita Mensal: </label>
+                            <input type="text" id="receita_mensalV" name="receita_mensalV">
                             
-                            <label for="imposto">Imposto (15,5%): </label>
-                            <input type="text" id="imposto">
+                            <label for="impostoV">Imposto (15,5%): </label>
+                            <input type="text" id="impostoV" name="impostoV">
                             
-                            <label for="pro-labore">Pro-Labore: </label>
-                            <input type="text">
+                            <label for="pro-laboreV">Pro-Labore: </label>
+                            <input type="text" id="pro-laboreV" name="pro-laboreV">
                             
-                            <label for="inss">INSS (11%): </label>
-                            <input type="text" id="inss">
-                        </div>
-                        <div class="calc">
+                            <label for="inssV">INSS (11%): </label>
+                            <input type="text" id="inssV" name="inssV">
+
+                            <input type="submit" value="Calcular" id="calcular" name="calcular">
+                        </form>
+                        <form class="calc">
                             <p>Anexo V com redução:</p>
                             <label for="receita_mensal">Receita Mensal: </label>
                             <input type="text" id="receita_mensal">
@@ -60,11 +62,11 @@
                             
                             <label for="inss">INSS (11%): </label>
                             <input type="text" id="inss">
-                        </div>
+                        </form>
                     </div>                    
                 </div>
             </section>
-            
+
         <section class="container container__result">
             <div>
                 <h2>Resultado</h2>
@@ -76,7 +78,7 @@
     </main>
     <footer class="rodape">
         <p>Desenvolvido por <a href="https://www.github.com/marquesflavio" target="_blank">Flávio Marques</a></p>
-
     </footer>
+    <script src="main.js"></script>
 </body>
 </html>

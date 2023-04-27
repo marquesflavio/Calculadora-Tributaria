@@ -105,7 +105,11 @@ body{
 .container__calc__anexoV input{
     width: 50%;
 }
-
+#calcular{
+    margin-top: 30px;
+    width: 100px;
+    
+}
 
 
 /*RODAPE*/
