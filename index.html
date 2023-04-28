@@ -33,7 +33,7 @@
                 <div>
                     <h2>Calculadora Tributária</h2>
                     <div class="container__calc__anexoV">
-                        <form class="calc">
+                        <form class="calc formulario">
                             <p>Anexo V Simples Nacional:</p>
                             <label for="receita_mensalV">Receita Mensal: </label>
                             <input type="text" id="receita_mensalV" name="receita_mensalV">
@@ -48,7 +48,7 @@
                             <input disabled type="text" id="inssV" name="inssV">
 
                             <input type="submit" value="Calcular" id="calcular" name="calcular">
-                            <input type="button" value="Zerar Campos" id="zerarCampos" name="zerarCampos" onclick="zerarCampos()">
+                            <input type="button" value="Zerar Campos" id="zerarCampos" name="zerarCampos" onclick="LimpaCampos()" >
                         </form>
                         <form class="calc">
                             <p>Anexo V com redução:</p>

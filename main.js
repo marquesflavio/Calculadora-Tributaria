@@ -53,9 +53,8 @@ btn.addEventListener("click", function(e){
     
 })
 
-function zerarCampos(){
-    document.getElementsByTagName('input').value = ''
-
-   
-
+function LimpaCampos(){
+    const formulario = document.querySelector('#formulario');
+    formulario.reset();
 }
+
