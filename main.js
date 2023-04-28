@@ -54,7 +54,25 @@ btn.addEventListener("click", function(e){
 })
 
 function LimpaCampos(){
-    const formulario = document.querySelector('#formulario');
-    formulario.reset();
+
+    
+    let receitaMensal = document.querySelector('#receita_mensalV')
+    receitaMensal.value = ''
+    let proLabore = document.querySelector('#pro-laboreV')
+    proLabore.value = ''
+    let imposto = document.querySelector('#impostoV')
+    imposto.value = ''
+    let inssV = document.querySelector('#inssV');
+    inssV.value = ''
+    let receitaMensalReducao = document.querySelector('#receita_mensal')
+    receitaMensalReducao.value = ''
+    let impostoReducao = document.querySelector('#imposto')
+    impostoReducao.value = ''
+    let proLaboreReducao = document.querySelector('#pro_labore')
+    proLaboreReducao.value = ''
+    let inssReducao = document.querySelector('#inss')
+    inssReducao.value = ''
+    // não dá para pegar todos os inputs de uma só vez??
+    
 }
 
