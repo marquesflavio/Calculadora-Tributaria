@@ -6,7 +6,7 @@ Essa single page aplication conta com uma cálculadora de avaliação tributári
 [X] Criar toda estrutura HTML
 [X] Estilizar com CSS
 [X] Fazer a calculadora e as funções com JS
-[] Criar um botão para limpar campos de input e de respostas
+[X] Criar um botão para limpar campos de input e de respostas
 [] Formatar campos para valores monetários
 [] Criar algumas aplicações interessantes com CSS.
 [] Acrescentar um abbr nos campos para explicar os valores

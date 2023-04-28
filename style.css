@@ -1,5 +1,5 @@
 :root{
-    --cor1:#212A3E;
+    --cor1: #212A3E;
     --cor2: #394867;
     --cor3: #9BA4B5;
     --cor4: #F1F6F9;
@@ -80,6 +80,10 @@ body{
     
     
 }
+.container__result{
+    height: 150px;
+
+}
 /*CALCULADORAS*/
 .container__calc__anexoV{
     display: flex;
@@ -107,19 +111,17 @@ body{
 }
 
 /*BOTÕES*/
-#calcular, #zerarCampos{
+.calcular, .zerarCampos{
     margin-top: 30px;
     width: 100px;  
 
 }
-#calcular:hover, #zerarCampos:hover{
-    margin-top: 30px;
-    width: 100px;  
+.calcular:hover, .zerarCampos:hover{
     cursor: pointer;
 
 }
 
-#zerarCampos{
+.zerarCampos{
     background-color: rgb(199, 51, 51);
 
 }
