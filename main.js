@@ -60,7 +60,7 @@ function LimpaCampos(){
         e.value = null
     })
 
-    const limparesultado = document.querySelector('.resultado')
-    limparesultado.innerHTML = ''
+    const limpaResultado = document.querySelector('.resultado')
+    limpaResultado.innerHTML = ''
 }
 
