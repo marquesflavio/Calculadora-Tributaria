@@ -105,12 +105,24 @@ body{
 .container__calc__anexoV input{
     width: 50%;
 }
-#calcular{
+
+/*BOTÕES*/
+#calcular, #zerarCampos{
     margin-top: 30px;
-    width: 100px;
-    
+    width: 100px;  
+
+}
+#calcular:hover, #zerarCampos:hover{
+    margin-top: 30px;
+    width: 100px;  
+    cursor: pointer;
+
 }
 
+#zerarCampos{
+    background-color: rgb(199, 51, 51);
+
+}
 
 /*RODAPE*/
 .rodape{

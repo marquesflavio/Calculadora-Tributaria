@@ -14,8 +14,8 @@
     </header>
     <nav class="cabecalho__nav">
         <a href="#">Menu</a>
-        <a href="#">Informações</a>
-        <a href="#">Contato</a>
+        <a href="https://www8.receita.fazenda.gov.br/SimplesNacional/" target="_blank">Legislação</a>
+        <a href="https://github.com/marquesflavio" target="_blank">Contato</a>
     </nav>
     <main>
         <section class="container container__txt">
@@ -26,7 +26,7 @@
                 
                 <p>O Simples Nacional possui 5 anexos "tabelas" de alíquotas de impostos, uma para cada tipo de atividade, e as atividades intelectuais, como a atividade de desenvolvimento de softwares está num desses grupos. Para a nossa infelicidade é no grupo mais caro.</p>
 
-                <p>Porém agora vamos descobrir uma possibilidade lícita de diminuir esse percentual de imposto e de quebra vamos ver isso na prática, sem precisarmos nos preocupar com toda a burocracia da legislação, porém você sempre pode chegar aqui <a href="http://www8.receita.fazenda.gov.br/SimplesNacional/" target="_blank">Simples Nacional</a> </p>
+                <p>Porém agora vamos descobrir uma possibilidade lícita de diminuir esse percentual de imposto de uma forma prática e direta.</p>
             </article>
         </section>
             <section class="container container__calc">
@@ -34,7 +34,7 @@
                     <h2>Calculadora Tributária</h2>
                     <div class="container__calc__anexoV">
                         <form class="calc">
-                            <p>Anexo V do Simples Nacional:</p>
+                            <p>Anexo V Simples Nacional:</p>
                             <label for="receita_mensalV">Receita Mensal: </label>
                             <input type="text" id="receita_mensalV" name="receita_mensalV">
                             
@@ -48,6 +48,7 @@
                             <input disabled type="text" id="inssV" name="inssV">
 
                             <input type="submit" value="Calcular" id="calcular" name="calcular">
+                            <input type="button" value="Zerar Campos" id="zerarCampos" name="zerarCampos" onclick="zerarCampos()">
                         </form>
                         <form class="calc">
                             <p>Anexo V com redução:</p>
@@ -58,7 +59,7 @@
                             <input disabled type="text" id="imposto">
                             
                             <label for="pro-labore">Pro-Labore: </label>
-                            <input disabled type="text">
+                            <input disabled type="text" id="pro_labore">
                             
                             <label for="inss">INSS (11%): </label>
                             <input disabled type="text" id="inss">
@@ -70,7 +71,7 @@
         <section class="container container__result">
             <div>
                 <h2>Resultado</h2>
-                <p>Houve uma economia de ____ em impostos ao aplicar a redução permitida por Lei.</p>
+                <p id="resultado"></p>
 
             </div>
         </section>
