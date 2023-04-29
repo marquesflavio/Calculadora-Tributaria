@@ -114,15 +114,21 @@ body{
 .calcular, .zerarCampos{
     margin-top: 30px;
     width: 100px;  
+    height: 25px;
 
 }
 .calcular:hover, .zerarCampos:hover{
     cursor: pointer;
 
 }
+.calcular{
+    background-color: #275fcf65;
+}
 
 .zerarCampos{
     background-color: rgb(199, 51, 51);
+    position: relative;
+    left: 89%;
 
 }
 
