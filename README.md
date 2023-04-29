@@ -8,5 +8,6 @@ Essa single page aplication conta com uma cálculadora de avaliação tributári
 [X] Fazer a calculadora e as funções com JS
 [X] Criar um botão para limpar campos de input e de respostas
 [X] Acrescentar um abbr nos campos para explicar os valores
+[] Fazer um if/else para impedir que o Calcular seja ativado caso não tenham valores digitados.
 [] Criar algumas aplicações interessantes com CSS.
 [] Formatar campos para valores monetários - toLocaleString? JQuery?

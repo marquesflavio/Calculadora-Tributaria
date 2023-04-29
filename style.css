@@ -11,7 +11,9 @@
     box-sizing: border-box;
 }
 body{
-    background-color: var(--cor4);
+    background-image: url(pexels-karolina-grabowska-5412081.jpg);
+    background-color: #c7c3dc;
+    background-size: cover;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
