@@ -6,7 +6,7 @@ btn.addEventListener("click", function(e){
     e.preventDefault();
 
     const receitaMensal = document.querySelector('.receita_mensalV')
-    const recMes = receitaMensal.value;
+    const recMes = receitaMensal.value
 
     const proLabore = document.querySelector('.pro-laboreV')
     const proLab = proLabore.value;
