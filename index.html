@@ -36,13 +36,13 @@
                         <form class="calc formulario">
                             <p>Anexo V Simples Nacional:</p>
                             <label for="receita_mensalV"><abbr title="Receita auferida no mês de apuração">Receita Mensal:</abbr> </label>
-                            <input type="text" class=" input receita_mensalV" name="receita_mensalV">
+                            <input type="text" class=" input receita_mensalV" name="receita_mensalV" required="true">
                             
                             <label for="impostoV">Imposto (15,5%): </label>
                             <input disabled type="text" class=" input impostoV" name="impostoV">
                             
                             <label for="pro-laboreV"><abbr title='Valor de "salário" do sócio da empresa, pode ser definido pelo empresário'>Pro-Labore:</abbr> </label>
-                            <input type="text" class=" input pro-laboreV" name="pro-laboreV">
+                            <input required="true" type="text" class=" input pro-laboreV" name="pro-laboreV">
                             
                             <label for="inssV">INSS (11%): </label>
                             <input disabled type="text" class=" input inssV" name="inssV">
@@ -54,7 +54,7 @@
                         <form class="calc">
                             <p>Anexo V com redução:</p>
                             <label for="receita_mensal">Receita Mensal: </label>
-                            <input type="text" class="input receita_mensal">
+                            <input required="true" type="text" class="input receita_mensal">
                             
                             <label for="imposto">Imposto (6%): </label>
                             <input disabled type="text" class="input imposto">
